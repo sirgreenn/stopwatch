@@ -1,0 +1,57 @@
+body {
+  background-color: black;
+}
+
+.start-button {
+  position: absolute;
+  bottom: 100px;
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  border: none;
+  font-size: 25px;
+  background-color: rgb(56, 56, 56);
+  color: white;
+  cursor: pointer;
+  margin-left: 300px;
+}
+
+.stop-button {
+  position: absolute;
+  bottom: 100px;
+  left: 350px;
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  border: none;
+  font-size: 25px;
+  background-color: rgb(56, 56, 56);
+  color: white;
+  cursor: pointer;
+  margin-left: 100px;
+}
+
+.reset-button {
+  position: absolute;
+  bottom: 100px;
+  left: 500px;
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  border: none;
+  font-size: 20px;
+  background-color: rgb(0, 103, 19);
+  color: white;
+  cursor: pointer;
+  margin-left: 100px;
+}
+
+.time-text {
+  width: 500px;
+  position: absolute;
+  bottom: 190px;
+  left: 320px;
+  font-family: Orbitron, Arial;
+  color: rgb(0, 70, 0);
+  font-size: 70px;
+}
